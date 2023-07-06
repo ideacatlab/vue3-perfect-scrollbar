@@ -1,12 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import PerfectScrollbar from '../src'
-import '../src/style.css'
+import { createApp } from "vue";
+import App from "./App.vue";
+import PerfectScrollbar from "../src";
+import "../src/style.css";
 
-const app = createApp(App)
+const app = createApp(App);
 
 app.use(PerfectScrollbar, {
-  name: 'scroll'
-})
+    name: "scroll",
+});
 
-app.mount('#app')
+app.mount("#app");
